@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/action_reload"
+        android:title="@string/action_reload"
+        android:orderInCategory="1" />
+
+    <item android:id="@+id/action_load_from_server"
+        android:title="@string/action_load_from_server"
+        android:orderInCategory="2"/>
+
+    <item android:id="@+id/action_load_from_database"
+        android:title="@string/action_load_from_database"
+        android:orderInCategory="3" />
+</menu>
